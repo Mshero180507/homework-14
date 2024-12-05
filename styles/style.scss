@@ -1,0 +1,70 @@
+@import"mixins";
+@import "reset";
+@import "placholder";
+
+.header{
+    @extend %customheader;
+
+    &--logo {
+        @extend %customheader--logo;
+    }
+
+    &--titles {
+        @extend %customheader--titles;
+    }
+}
+
+main{
+    .pic{
+        @extend %custompic;
+
+        &--text{
+            @extend %custompic--text;
+        }
+
+        &--secondtext{
+            @extend %custompic--secondtext;
+        }
+    }
+
+    .discription{
+        @extend %customdiscription;
+
+        &--card{
+            @extend %customdiscription-card;
+
+            &--1{
+                @extend %customdiscription1;
+            }
+    
+            &--2{
+                @extend %customdiscription2;
+            }
+    
+            &--3{
+                @extend %customdiscription3;
+            }
+        }
+
+        &--cards{
+            @extend %customdiscription--cards;
+            .card{
+                @extend %customcard;
+
+                &--img{
+                    @extend %customcard--img;
+                }
+
+                &--title{
+                    @extend %customcard--title;
+                }
+
+                &--text{
+                    @extend %customcard--text;
+                }
+            }
+        }
+    }
+}
+
+
