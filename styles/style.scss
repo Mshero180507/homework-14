@@ -7,6 +7,9 @@
 
     &--logo {
         @extend %customheader--logo;
+        @media only screen and (max-width:1024px){
+            margin-right: 320px;
+        }
     }
 
     &--titles {
@@ -20,10 +23,16 @@ main{
 
         &--text{
             @extend %custompic--text;
+            @media only screen and (max-width:1024px){
+                left: 280px;
+            }
         }
 
         &--secondtext{
             @extend %custompic--secondtext;
+            @media only screen and (max-width:1024px){
+                left: 370px;
+            }
         }
     }
 

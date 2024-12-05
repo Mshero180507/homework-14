@@ -133,4 +133,20 @@ main .discription--cards .card--text {
   color: #636060;
   margin-bottom: 0;
   width: 286px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .header--logo {
+    margin-right: 320px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  main .pic--text {
+    left: 280px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  main .pic--secondtext {
+    left: 370px;
+  }
 }/*# sourceMappingURL=style.css.map */
